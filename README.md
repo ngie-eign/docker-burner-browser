@@ -1,4 +1,4 @@
-# Ephemeral Browser
+# Burner Browser
 
 ## Why?
 

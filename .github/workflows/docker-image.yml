@@ -1,0 +1,22 @@
+# Based on Docker Image Build workflow from GitHub.
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Update APT / install dependencies
+      run: |
+        apt update
+        apt upgrade -y
+        apt install -y gmake
+    - name: Build the Docker image
+      run: |
+        make all

@@ -2,7 +2,7 @@
 
 ## Why?
 
-This exists because Facebook and Google are creepy (despite what they claim)
+This exists because Facebook and Google are creepy (despite what they claim),
 data brokers suck, and because some nation states suck and exploit browsers
 and OSes instead of reporting the vulnerabilities to the projects/products so
 the vulnerabilities can be addressed.
